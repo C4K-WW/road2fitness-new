@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Road2Fitness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" media="screen">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+</head>
+
+<body class="home-body">
+    <div id="preloader">
+        <div class="loder-box">
+            <div class="battery"></div>
+        </div>
+    </div>
+    <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- responsive nav button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+                <!-- responsive nav button closed -->
+
+                <!-- logo -->
+                <a class="navbar-brand" href="#body"><img src="img/logo1.jpg" height="50" class="logo-name"></a>
+
+                <!-- logo -->
+
+            </div>
+            <!-- nav open -->
+            <nav class="collapse navbar-collapse navbar-right" id="myNavbar" role="navigation">
+                <ul id="nav" class="nav navbar-nav">
+                    <li>
+                        <a href="index.html" class="nav-move">Home</a>
+                    </li>
+                    <li>
+                        <a href="weight.html">Weights</a>
+                    </li>
+                    <li>
+                        <a href="cardio.html">Cardio</a>
+                    </li>
+                    <li>
+                        <a href="yoga.html">Yoga</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="wellness.html">Wellness
+            <span class="caret"></span>
+        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Submenu 1-1</a></li>
+                            <li><a href="#">Submenu 1-2</a></li>
+                            <li><a href="#">Submenu 1-4</a></li>
+                            <li><a href="#">Submenu 1-5</a></li>
+                            <li><a href="#">Submenu 1-6</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact-us.html" class="nav-move">Contact Us</a></li>
+                </ul>
+            </nav>
+            <!-- nav closed -->
+
+        </div>
+    </header>
+    <main id="main-content">
+        <div class="container">
+            <!-- Container for the image gallery carousel -->
+            <!-- Fitness images will be add to the image src soon. -->
+            <div class="img-container">
+
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="img/slider-bg.jpg" style="width:100%">
+                    <div class="img-content">
+                        <h1><a class="btn btn-success" href="#"> Go to workout</a></h1>
+                        <p class="card-text">Build learn muscle workouts with dumbbell circuit</p>
+                    </div>
+
+
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="img/slider-bg.jpg" style="width:100%">
+                    <div class="img-content">
+                        <h1><a class="btn btn-success" href="#"> Go to workout</a></h1>
+                        <p>This 10-move workouts will hit your abs from every angle</p>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="img/slider-bg.jpg" style="width:100%">
+                    <div class="img-content">
+                        <h1><a class="btn btn-success" href="#"> Go to workout</a></h1>
+                        <p>Burn fat and boost strenght</p>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="img/slider-bg.jpg" style="width:100%">
+                    <div class="img-content">
+                        <h1><a class="btn btn-success" href="#"> Go to workout</a></h1>
+                        <p>Build boulder shoulders with this upper-body workouts</p>
+                    </div>
+
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="img/slider-bg.jpg" style="width:100%">
+                    <div class="img-content">
+                        <h1><a class="btn btn-success" href="#"> Go to workout</a></h1>
+                        <p>Running for 10minutes can boost your mental performance</p>
+                    </div>
+
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="img/slider-bg.jpg" style="width:100%">
+                    <div class="img-content">
+                        <h1><a class="btn btn-success" href="#"> Go to Recipes</a></h1>
+                        <p>Recipes, food hacks and meal plans</p>
+                    </div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Image text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail images -->
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="img/slider-bg.jpg" style="width:100%" onclick="currentSlide(1)" alt="Tough 10-minute workouts">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/slider-bg.jpg" style="width:100%" onclick="currentSlide(2)" alt="Quick tips abs">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/slider-bg.jpg" style="width:100%" onclick="currentSlide(3)" alt="How to strenght train in your 40s and beyong">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/slider-bg.jpg" style="width:100%" onclick="currentSlide(4)" alt="Shoulder">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/slider-bg.jpg" style="width:100%" onclick="currentSlide(5)" alt="Mental Health Fitness">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/slider-bg.jpg" style="width:100%" onclick="currentSlide(6)" alt="Best nutritions">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- carousel container close -->
+        <section id="content">
+            <div class="container">
+
+                <div class="row ">
+                    <div class="clearfix ">
+                        <div class="span3 ">
+                            <ul class="dd_menu">
+                                <li><a href="#">Meet our pts</a></li>
+                                <li><a href="#">Our experts</a></li>
+                                <li><a href="#">Popular nutritions products</a></li>
+                                <li><a href="#">Do you know?</a></li>
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                            <div class="padcontent"></div>
+                        </div>
+                        <div class="span5">
+                            <h1 class="h1">Cardio section</h1>
+                            <img src="img/img-small.jpg" alt="" border="0" class="aligncenter-big" />
+                            <p>
+                                <strong>Suspendisse enim arcu, convallis non, cursus sed, dignissim et, est. Aenean semper aliquet libero.</strong> In ante velit, cursus ut, ultrices vitae, tempor ut, risus. <a href="">Duis pulvinar.</a> Vestibulum vel
+                                pede at sapien sodales mattis. Quisque pretium, lacus nec iaculis vehicula, arcu libero consectetuer massa, auctor aliquet mauris ligula id ipsum. Vestibulum pede. Maecenas sit amet augue. Sed blandit lectus eget lectus.
+                                Mauris justo. Curabitur nibh lectus, dapibus id, tempor eu, tempor non, erat. Proin pede eros, pharetra
+                            </p>
+                            <a href="index-1.html" class="btn_ left">more info</a>
+
+                            <div class="clearfix padcontent"></div> <br />
+                        </div>
+
+                        <div class="span4">
+                            <h2 class="h2">Our News</h2>
+                            <img src="img/img-small.jpg" alt="" width="90" height="90" border="0" class="aligncenter-small left" />
+                            <p class="max-size1">
+                                <strong>15 mins with Greg  </strong> Why weight training holds the key to better sleep.
+                                <a href="#" class="more">more info</a>
+                            </p>
+                            <div class="clearfix"><br /></div>
+
+                            <img src="img/img-small.jpg" alt="" width="90" height="90" border="0" class="aligncenter-small left" />
+                            <p class="max-size1">
+                                <strong>nutritions news </strong> Facts and findings from the world of food.
+                                <a href="#" class="more">more info</a>
+                            </p>
+                            <div class="clearfix"><br /></div>
+
+                            <img src="img/img-small.jpg" alt="" width="90" height="90" border="0" class="aligncenter-small left" />
+                            <p class="max-size1">
+                                <strong>5 ways to beat stress  </strong> Expert-led tips for finding your inner-calm.
+                                <a href="#" class="more">more info</a>
+                            </p>
+                            <div class="clearfix"><br /></div>
+
+                            <img src="img/img-small.jpg" alt="" width="90" height="90" border="0" class="aligncenter-small left" />
+                            <p class="max-size1">
+                                <strong>Perfect fit news </strong> Measure the progress of your body.
+                                <a href="#" class="more">more info</a>
+                            </p>
+                            <div class="padcontent"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <div class="social-media-link">
+                <div class="container">
+                    <h3>Join us on social <span>networks</span></h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-twitter"></i> -->
+                                <img class="icons-img" src="img/icons8-twitter-144.png" width="45"> </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-facebook"></i> -->
+                                <img class="icons-img" src="img/icons8-instagram-logo-144.png" width="45">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-pinterest"></i> -->
+                                <img class="icons-img" src="img/icons8-pinterest-144.png" width="45">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <!-- <i class="fa fa-instagram"></i> -->
+                                <img class="icons-img" src="img/icons8-facebook-144.png" width="45">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <footer id="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="block">
+                                <p>Road2Fitness Copyright &copy; 2022. <a class="rights" href="#">All rights reserved</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
